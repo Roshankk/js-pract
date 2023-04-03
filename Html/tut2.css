@@ -1,0 +1,32 @@
+ul{
+    background-color: green;
+    list-style-type: none;
+    border: 1px solid red;
+    overflow: auto;
+}
+
+li{
+    color: white;
+    padding: 5px 10px;
+    float: left;
+}
+
+#wrapper{
+    margin: 20px;
+    padding: 20px;
+}
+
+a{
+    background-color: lightblue;
+    padding: 10px;
+    /* height: 5px; */
+    width: 15px 30px;
+    border-radius:5px;
+}
+
+a:hover{
+    
+    display: inline-block;
+    transform: rotate(20deg) skew(20deg) scale(2 ,1);
+    
+}
